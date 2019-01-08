@@ -34,3 +34,6 @@ export function todoReducer(state = [], action: ActionWithPayload<TodoPayload>) 
       return state;
   }
 }
+
+/** @namespace */
+export const x = {}

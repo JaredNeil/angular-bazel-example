@@ -13,5 +13,9 @@
         ],
         "experimentalDecorators": true,
         "types": []
+    },
+    "bazelOptions": {
+        "tsickle": true,
+        "googmodule": true,
     }
 }

@@ -8,4 +8,6 @@ ts_library(
     deps = [
         "@npm//@ngrx/store",
     ],
+    # Couldn't get default compiler to use tsickle
+    compiler = "@build_bazel_rules_typescript//internal:tsc_wrapped_bin",
 )
